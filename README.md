@@ -1,6 +1,6 @@
 # freelancer_ashok
 
-Static HTML site deployed on [Vercel](https://vercel.com).
+Static HTML portfolio site deployed from this GitHub repository.
 
 ## Local preview
 
@@ -12,4 +12,9 @@ npx serve .
 
 ## Deploy
 
-Pushes to `main` trigger an automatic Vercel deployment when the repo is connected in the Vercel dashboard.
+Pushes to `main` automatically deploy via:
+
+- **GitHub Pages** — GitHub Actions workflow (`.github/workflows/deploy-pages.yml`)
+- **Vercel** — if the repo is connected in the [Vercel dashboard](https://vercel.com)
+
+Live site: https://devproai27.github.io/freelancer_ashok/
